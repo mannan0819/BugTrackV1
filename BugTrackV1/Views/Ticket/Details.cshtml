@@ -1,0 +1,26 @@
+﻿@model  BugTrackV1.Models.TicketModel;
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div style="font-family: Arial;">
+    Ticket Details: 
+    <br />
+    <table>
+        <tr>
+            <td>Id: </td>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <td>Name: </td>
+            <td>@Model.Title</td>
+        </tr>
+        <tr>
+            <td>Author: </td>
+            <td>@Model.Author</td>
+        </tr>
+    </table>
+</div>
+
